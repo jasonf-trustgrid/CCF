@@ -1,0 +1,6 @@
+<map id="ccf::pal::snp::AttestationResp" name="ccf::pal::snp::AttestationResp">
+<area shape="rect" id="node1" title=" " alt="" coords="87,228,297,255"/>
+<area shape="rect" id="node2" href="$structccf_1_1pal_1_1snp_1_1Attestation.html" title=" " alt="" coords="103,139,281,165"/>
+<area shape="rect" id="node3" href="$structccf_1_1pal_1_1snp_1_1TcbVersion.html" title=" " alt="" coords="5,5,181,32"/>
+<area shape="rect" id="node4" href="$structccf_1_1pal_1_1snp_1_1Signature.html" title=" " alt="" coords="206,5,375,32"/>
+</map>

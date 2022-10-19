@@ -1,0 +1,36 @@
+overview/glossary.rst:48: [redirected permanently] https://azure.microsoft.com to https://azure.microsoft.com/en-us/
+build_apps/auth/jwt.rst:4: [redirected permanently] https://aka.ms/IdentityPlatform to https://learn.microsoft.com/en-us/azure/active-directory/develop/
+governance/hsm_keys.rst:4: [redirected permanently] https://azure.microsoft.com/en-gb/services/key-vault to https://azure.microsoft.com/en-gb/products/key-vault/
+build_apps/run_app.rst:4: [redirected permanently] https://curl.haxx.se/ to https://curl.se/
+build_apps/auth/jwt.rst:144: [redirected permanently] https://docs.microsoft.com/en-us/azure/attestation/ to https://learn.microsoft.com/en-us/azure/attestation/
+governance/hsm_keys.rst:8: [redirected permanently] https://docs.microsoft.com/en-us/azure/key-vault/general/quick-create-portal#create-a-vault to https://learn.microsoft.com/en-us/azure/key-vault/general/quick-create-portal#create-a-vault
+contribute/create_vm.rst:4: [redirected permanently] https://docs.microsoft.com/en-us/azure/virtual-machines/dcv2-series to https://learn.microsoft.com/en-us/azure/virtual-machines/dcv2-series
+governance/hsm_keys.rst:8: [redirected permanently] https://docs.microsoft.com/en-us/cli/azure/install-azure-cli to https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+governance/hsm_keys.rst:70: [redirected permanently] https://docs.microsoft.com/en-us/azure/key-vault/general/assign-access-policy-portal to https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy
+contribute/create_vm.rst:4: [redirected permanently] https://docs.microsoft.com/en-us/azure/virtual-machines/generation-2 to https://learn.microsoft.com/en-us/azure/virtual-machines/generation-2
+architecture/raft_tla.rst:40: [redirected permanently] https://docs.microsoft.com/en-us/azure/virtual-machines/hbv3-series to https://learn.microsoft.com/en-us/azure/virtual-machines/hbv3-series
+governance/hsm_keys.rst:19: [redirected permanently] https://docs.microsoft.com/en-us/cli/azure/keyvault/certificate?view=azure-cli-latest#az-keyvault-certificate-create to https://learn.microsoft.com/en-us/cli/azure/keyvault/certificate?view=azure-cli-latest#az-keyvault-certificate-create
+governance/hsm_keys.rst:55: [redirected permanently] https://docs.microsoft.com/en-us/rest/api/keyvault/keys/sign/sign to https://learn.microsoft.com/en-us/rest/api/keyvault/keys/sign/sign
+governance/hsm_keys.rst:34: [redirected permanently] https://docs.microsoft.com/en-us/cli/azure/keyvault/key?view=azure-cli-latest#az-keyvault-key-create to https://learn.microsoft.com/en-us/cli/azure/keyvault/key?view=azure-cli-latest#az-keyvault-key-create
+contribute/index.rst:7: [redirected with Found] https://github.com/microsoft/CCF/issues/new?assignees=&labels=bug&template=bug_report.md&title= to https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmicrosoft%2FCCF%2Fissues%2Fnew%3Fassignees%3D%26labels%3Dbug%26template%3Dbug_report.md%26title%3D
+contribute/index.rst:7: [redirected with Found] https://github.com/microsoft/CCF/issues/new?assignees=&labels=enhancement&template=feature_request.md&title= to https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmicrosoft%2FCCF%2Fissues%2Fnew%3Fassignees%3D%26labels%3Denhancement%26template%3Dfeature_request.md%26title%3D
+contribute/onboarding.rst:11: [redirected with Found] https://github.com/microsoft/CCF/issues/new/choose to https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmicrosoft%2FCCF%2Fissues%2Fnew%2Fchoose
+contribute/build_ccf.rst:76: [redirected permanently] https://github.com/microsoft/CCF/tree/main/.azure-pipelines.yml to https://github.com/microsoft/CCF/blob/main/.azure-pipelines.yml
+contribute/build_images.rst:10: [redirected permanently] https://github.com/microsoft/CCF/tree/main/.github/workflows/ci-containers.yml to https://github.com/microsoft/CCF/blob/main/.github/workflows/ci-containers.yml
+contribute/build_images.rst:4: [redirected permanently] https://github.com/microsoft/CCF/tree/main/docker/ccf_ci to https://github.com/microsoft/CCF/blob/main/docker/ccf_ci
+operations/recovery.rst:8: [redirected permanently] https://github.com/microsoft/CCF/tree/main/tests/infra/health_watcher.py to https://github.com/microsoft/CCF/blob/main/tests/infra/health_watcher.py
+build_apps/auth/jwt.rst:135: [redirected permanently] https://github.com/microsoft/CCF/tree/main/tests/js-authentication/src/endpoints.js to https://github.com/microsoft/CCF/blob/main/tests/js-authentication/src/endpoints.js
+governance/common_member_operations.rst:137: [redirected permanently] https://github.com/microsoft/CCF/tree/main/src/ds/x509_time_fmt.h to https://github.com/microsoft/CCF/blob/main/src/ds/x509_time_fmt.h
+build_apps/js_app_bundle.rst:95: [redirected permanently] https://github.com/microsoft/CCF/tree/main/tests/js-app-bundle/app.json to https://github.com/microsoft/CCF/blob/main/tests/js-app-bundle/app.json
+build_apps/js_app_bundle.rst:297: [redirected permanently] https://github.com/microsoft/CCF/tree/main/tests/npm-app/package.json to https://github.com/microsoft/CCF/blob/main/tests/npm-app/package.json
+architecture/raft_tla.rst:60: [redirected permanently] https://github.com/microsoft/CCF/tree/main/tla/ccfraft.tla to https://github.com/microsoft/CCF/blob/main/tla/ccfraft.tla
+architecture/raft_tla.rst:60: [redirected permanently] https://github.com/microsoft/CCF/tree/main/tla/MCraft.tla to https://github.com/microsoft/CCF/blob/main/tla/MCraft.tla
+build_apps/js_app_bundle.rst:297: [redirected permanently] https://github.com/microsoft/CCF/tree/main/tests/npm-app/build_bundle.js to https://github.com/microsoft/CCF/blob/main/tests/npm-app/build_bundle.js
+build_apps/js_app_bundle.rst:10: [redirected with Found] https://nodejs.org/ to https://nodejs.org/en/
+overview/glossary.rst:76: [redirected permanently] https://software.intel.com/en-us/sgx to https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html
+build_apps/auth/cert.rst:9: [redirected permanently] https://tools.ietf.org/html/draft-cavage-http-signatures-12 to https://datatracker.ietf.org/doc/html/draft-cavage-http-signatures-12
+build_apps/auth/jwt.rst:6: [redirected permanently] https://tools.ietf.org/html/rfc6750 to https://www.rfc-editor.org/rfc/rfc6750
+build_apps/auth/jwt.rst:4: [redirected permanently] https://tools.ietf.org/html/rfc7519 to https://www.rfc-editor.org/rfc/rfc7519
+build_apps/auth/jwt.rst:63: [redirected permanently] https://tools.ietf.org/html/rfc7517 to https://www.rfc-editor.org/rfc/rfc7517
+governance/hsm_keys.rst:96: [redirected permanently] https://tools.ietf.org/html/rfc4648#section-5 to https://www.rfc-editor.org/rfc/rfc4648#section-5
+governance/hsm_keys.rst:96: [redirected permanently] https://tools.ietf.org/html/rfc7518#section-3.4 to https://www.rfc-editor.org/rfc/rfc7518#section-3.4

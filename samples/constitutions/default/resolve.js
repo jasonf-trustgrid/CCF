@@ -1,5 +1,6 @@
 export function resolve(proposal, proposerId, votes) {
-  const memberVoteCount = votes.filter((v) => v.vote).length;
+  const memberVoteToAcceptCount = votes.filter((v) => v.vote).length;
+  const memberVoteToRejectCount = votes.filter((v) => !v.vote).length;
 
   let activeMemberCount = 0;
   ccf.kv["public:ccf.gov.members.info"].forEach((v) => {
@@ -12,6 +13,8 @@ export function resolve(proposal, proposerId, votes) {
   // A majority of members can accept a proposal.
   if (memberVoteCount > Math.floor(activeMemberCount / 2)) {
     return "Accepted";
+  } else if (memberVoteCount > Math.floor(activeMemberCount / 2)) {
+    return "Rejected";
   }
 
   return "Open";

@@ -52,8 +52,12 @@ export function resolve(proposal, proposerId, votes) {
   const actions = JSON.parse(proposal)["actions"];
 
   // Count member votes.
-  const memberVoteCount = votes.filter(
+  const memberVoteToAcceptCount = votes.filter(
     (v) => v.vote && !isOperator(v.member_id)
+  ).length;
+  
+  const memberVoteToRejectCount = votes.filter(
+    (v) => !v.vote && !isOperator(v.member_id)
   ).length;
 
   // Count active members, excluding operators.
@@ -65,18 +69,20 @@ export function resolve(proposal, proposerId, votes) {
       activeMemberCount++;
     }
   });
+  
+  // Operators proposing operator changes can accept them without a vote.
+  if (isOperatorChange && isOperator(proposerId)) {
+    return "Accepted";
+  }
 
   // A proposal is an operator change if it's only applying operator actions.
   const isOperatorChange = actions.every(canOperatorPass);
 
   // A majority of members can always accept a proposal.
-  if (memberVoteCount > Math.floor(activeMemberCount / 2)) {
+  if (memberVoteToAcceptCount > Math.floor(activeMemberCount / 2)) {
     return "Accepted";
-  }
-
-  // Operators proposing operator changes can accept them without a vote.
-  if (isOperatorChange && isOperator(proposerId)) {
-    return "Accepted";
+  } else if (memberVoteToRejectCount > Math.floor(activeMemberCount / 2)) {
+    return "Rejected";
   }
 
   return "Open";

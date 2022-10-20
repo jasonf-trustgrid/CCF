@@ -11,9 +11,9 @@ export function resolve(proposal, proposerId, votes) {
   });
 
   // A majority of members can accept a proposal.
-  if (memberVoteCount > Math.floor(activeMemberCount / 2)) {
+  if (memberVoteToAcceptCount > Math.floor(activeMemberCount / 2)) {
     return "Accepted";
-  } else if (memberVoteCount > Math.floor(activeMemberCount / 2)) {
+  } else if (memberVoteToRejectCount > Math.floor(activeMemberCount / 2)) {
     return "Rejected";
   }
 
